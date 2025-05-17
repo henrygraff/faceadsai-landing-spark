@@ -32,11 +32,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Serviços</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Gestão de Redes Sociais</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Facebook Ads</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Marketing de Influência</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">SEO</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Análise de Dados</a></li>
+              <li><Link to="/services/social-media" className="text-gray-300 hover:text-white transition-colors">Gestão de Redes Sociais</Link></li>
+              <li><Link to="/services/facebook-ads" className="text-gray-300 hover:text-white transition-colors">Facebook Ads</Link></li>
+              <li><Link to="/services/influencer-marketing" className="text-gray-300 hover:text-white transition-colors">Marketing de Influência</Link></li>
+              <li><Link to="/services/seo" className="text-gray-300 hover:text-white transition-colors">SEO</Link></li>
+              <li><Link to="/services/data-analysis" className="text-gray-300 hover:text-white transition-colors">Análise de Dados</Link></li>
             </ul>
           </div>
           
