@@ -1,0 +1,41 @@
+[vite] connecting...
+[vite] connected.
+Pricing is not defined
+at App (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/App.tsx:117:64)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at HTMLUnknownElement.callCallback2 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3674:22)
+at Object.invokeGuardedCallbackDev (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3699:24)
+at invokeGuardedCallback (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3733:39)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19765:15)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+Pricing is not defined
+at App (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/App.tsx:117:64)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at HTMLUnknownElement.callCallback2 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3674:22)
+at Object.invokeGuardedCallbackDev (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3699:24)
+at invokeGuardedCallback (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3733:39)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19765:15)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+The above error occurred in the <App> component:
+
+    at App (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/App.tsx:117:64)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Pricing is not defined
+at App (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/App.tsx:117:64)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19753:22)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+at renderRootSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19116:15)
+at recoverFromConcurrentError (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:18736:28)
+at performConcurrentWorkOnRoot (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:18684:30)
