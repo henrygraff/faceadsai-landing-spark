@@ -66,7 +66,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const logout = () => {
-    window.location.href = `https://${window.location.host}/__replauthlogout`;
+    window.location.href = '/__replauthlogout';
   };
 
   return (
