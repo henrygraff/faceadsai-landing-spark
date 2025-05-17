@@ -43,11 +43,35 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
-              <li><Link to="/#services" className="text-gray-300 hover:text-white transition-colors">Serviços</Link></li>
-              <li><Link to="/#about" className="text-gray-300 hover:text-white transition-colors">Sobre</Link></li>
-              <li><Link to="/#testimonials" className="text-gray-300 hover:text-white transition-colors">Depoimentos</Link></li>
-              <li><Link to="/#contact" className="text-gray-300 hover:text-white transition-colors">Contato</Link></li>
+              <li><button onClick={() => window.location.href = '/'} className="text-gray-300 hover:text-white transition-colors">Home</button></li>
+              <li><button onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#services';
+                } else {
+                  document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }} className="text-gray-300 hover:text-white transition-colors">Serviços</button></li>
+              <li><button onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#about';
+                } else {
+                  document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }} className="text-gray-300 hover:text-white transition-colors">Sobre</button></li>
+              <li><button onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#testimonials';
+                } else {
+                  document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }} className="text-gray-300 hover:text-white transition-colors">Depoimentos</button></li>
+              <li><button onClick={() => {
+                if (window.location.pathname !== '/') {
+                  window.location.href = '/#contact';
+                } else {
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }
+              }} className="text-gray-300 hover:text-white transition-colors">Contato</button></li>
             </ul>
           </div>
           
@@ -59,7 +83,7 @@ const Footer: React.FC = () => {
                 <br />Bahia - BA, CEP: 43850-500
               </li>
               <li className="text-gray-300">(71) 99147-6462</li>
-              <li className="text-gray-300">contato@faceadsai.wvmkdigital.com.br</li>
+              <li className="text-gray-300">contato@faceads.wvmkdigital.com.br</li>
             </ul>
           </div>
         </div>
