@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 text-sm hover:text-white transition-colors">Termos de Serviço</a>
-              <a href="#" className="text-gray-400 text-sm hover:text-white transition-colors">Política de Privacidade</a>
+              <a href="/privacy" className="text-gray-400 text-sm hover:text-white transition-colors">Política de Privacidade</a>
             </div>
           </div>
         </div>
