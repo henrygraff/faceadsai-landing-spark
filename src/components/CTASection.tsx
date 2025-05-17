@@ -15,15 +15,15 @@ const CTASection: React.FC = () => {
             Junte-se a centenas de empresas que estão crescendo com nossas estratégias inovadoras de marketing potencializadas por inteligência artificial.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-brand-blue hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transform transition-all hover:scale-105">
+            <Button className="bg-white text-brand-blue hover:bg-gray-100 font-bold">
               Agendar Consultoria Gratuita
             </Button>
             <Button 
               variant="outline" 
-              className="border-white text-white hover:bg-white/10 flex items-center gap-2"
+              className="border-2 border-white text-white hover:bg-white/10"
               onClick={() => window.location.href = '/pricing'}
             >
-              Conhecer Planos <ChevronRight className="h-4 w-4" />
+              Conhecer Planos
             </Button>
           </div>
         </div>
