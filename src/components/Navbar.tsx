@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from '@/contexts/AuthContext';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigate = useNavigate();
-  
+  const { user, loading, login, logout } = useAuth();
+
   const scrollToSection = (sectionId: string) => {
     if (window.location.pathname !== '/') {
       navigate('/#' + sectionId);
