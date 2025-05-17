@@ -18,7 +18,11 @@ const CTASection: React.FC = () => {
             <Button className="bg-white text-brand-blue hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transform transition-all hover:scale-105">
               Agendar Consultoria Gratuita
             </Button>
-            <Button variant="outline" className="border-white text-white hover:bg-white/10 flex items-center gap-2">
+            <Button 
+              variant="outline" 
+              className="border-white text-white hover:bg-white/10 flex items-center gap-2"
+              onClick={() => window.location.href = '/pricing'}
+            >
               Conhecer Planos <ChevronRight className="h-4 w-4" />
             </Button>
           </div>
