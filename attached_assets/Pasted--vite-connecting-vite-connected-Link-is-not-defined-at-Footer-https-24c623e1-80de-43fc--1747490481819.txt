@@ -1,0 +1,51 @@
+[vite] connecting...
+[vite] connected.
+Link is not defined
+at Footer (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/components/Footer.tsx:452:77)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at HTMLUnknownElement.callCallback2 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3674:22)
+at Object.invokeGuardedCallbackDev (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3699:24)
+at invokeGuardedCallback (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3733:39)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19765:15)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+Link is not defined
+at Footer (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/components/Footer.tsx:452:77)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at HTMLUnknownElement.callCallback2 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3674:22)
+at Object.invokeGuardedCallbackDev (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3699:24)
+at invokeGuardedCallback (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:3733:39)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19765:15)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+The above error occurred in the <Footer> component:
+
+    at Footer (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/components/Footer.tsx:452:77)
+    at div
+    at Index
+    at RenderedRoute (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=49a52875:4069:5)
+    at Routes (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=49a52875:4508:5)
+    at Router (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=49a52875:4451:15)
+    at BrowserRouter (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=49a52875:5196:5)
+    at Provider (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-ALYMPFVU.js?v=49a52875:42:15)
+    at TooltipProvider (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=49a52875:2295:5)
+    at QueryClientProvider (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=49a52875:2794:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Link is not defined
+at Footer (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/src/components/Footer.tsx:452:77)
+at renderWithHooks (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:11548:26)
+at mountIndeterminateComponent (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:14926:21)
+at beginWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:15914:22)
+at beginWork$1 (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19753:22)
+at performUnitOfWork (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19198:20)
+at workLoopSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19137:13)
+at renderRootSync (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:19116:15)
+at recoverFromConcurrentError (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:18736:28)
+at performConcurrentWorkOnRoot (https://24c623e1-80de-43fc-9c09-0b9c7082dadb-00-3nh0ipiitrlhd.worf.replit.dev/node_modules/.vite/deps/chunk-R6S4VRB5.js?v=49a52875:18684:30)
