@@ -66,18 +66,12 @@ const ServiceSection: React.FC = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-
               <Card key={index} className="p-8 card-shadow border border-brand-blue/10 hover:border-brand-blue/30 transition-all group">
-                <Link 
-                  to={`/services/${service.title.toLowerCase().replace(/ /g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '')}`}
-                  className="block"
-                >
-                  <div className="p-3 bg-brand-blue/10 rounded-full inline-block mb-5 group-hover:bg-brand-blue/20 transition-all">
-                    {service.icon}
-                  </div>
-                  <h3 className="text-xl font-bold mb-3 text-brand-darkText group-hover:text-brand-blue transition-colors">{service.title}</h3>
-                  <p className="text-gray-600">{service.description}</p>
-                </Link>
+                <div className="p-3 bg-brand-blue/10 rounded-full inline-block mb-5 group-hover:bg-brand-blue/20 transition-all">
+                  {service.icon}
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-brand-darkText group-hover:text-brand-blue transition-colors">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </Card>
             ))}
           </div>
