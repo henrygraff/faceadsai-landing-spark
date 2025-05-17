@@ -7,6 +7,7 @@ import Index from './pages/Index'
 import NotFound from './pages/NotFound'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService'
+import Pricing from './pages/Pricing'
 
 const queryClient = new QueryClient();
 
