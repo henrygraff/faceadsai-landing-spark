@@ -15,7 +15,7 @@ const About = () => {
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-6">Quem somos</h2>
             <p className="text-lg text-gray-700 mb-8">
-              A faceadsai.wvmkdigital é uma agência especializada em marketing digital e desenvolvimento 
+              A faceads.wvmkdigital é uma agência especializada em marketing digital e desenvolvimento 
               de soluções tecnológicas para empresas que buscam expandir sua presença online. Nossa 
               equipe multidisciplinar trabalha com foco em resultados mensuráveis, aplicando as melhores 
               práticas de mercado para garantir o sucesso dos nossos clientes.
