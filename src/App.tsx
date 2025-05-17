@@ -13,7 +13,8 @@ import SocialMediaManagement from './pages/SocialMediaManagement'
 import FacebookAds from './pages/FacebookAds'
 import InfluencerMarketing from './pages/InfluencerMarketing'
 import SEO from './pages/SEO'
-import DataAnalysis from './pages/DataAnalysis'
+import DataAnalysis from './pages/DataAnalysis';
+import LearnMore from './pages/LearnMore';
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/services/influencer-marketing" element={<InfluencerMarketing />} />
           <Route path="/services/seo" element={<SEO />} />
           <Route path="/services/data-analysis" element={<DataAnalysis />} />
+          <Route path="/learn-more" element={<LearnMore />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
