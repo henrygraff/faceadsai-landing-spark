@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-8">
           <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Home</button>
           <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Serviços</button>
-          <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Sobre</button>
+          <Link to="/about" className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Sobre</Link>
           <button onClick={() => scrollToSection('testimonials')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Depoimentos</button>
           <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Contato</button>
         </div>
