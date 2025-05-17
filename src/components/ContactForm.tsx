@@ -146,8 +146,8 @@ const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-brand-darkText">Telefone</h4>
-                    <p className="text-gray-600">(11) 9999-9999</p>
-                    <p className="text-gray-600">(11) 8888-8888</p>
+                    <p className="text-gray-600">(71) 99147-6462</p>
+                    <p className="text-gray-600">(71) 99103-9427</p>
                   </div>
                 </div>
                 
@@ -157,8 +157,8 @@ const ContactForm: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-brand-darkText">E-mail</h4>
-                    <p className="text-gray-600">contato@faceadsai.wvmkdigital.com</p>
-                    <p className="text-gray-600">suporte@faceadsai.wvmkdigital.com</p>
+                    <p className="text-gray-600">contato@faceads.wvmkdigital.com.br</p>
+                    <p className="text-gray-600">suporte@faceads.wvmkdigital.com.br</p>
                   </div>
                 </div>
                 
@@ -169,9 +169,9 @@ const ContactForm: React.FC = () => {
                   <div>
                     <h4 className="text-lg font-medium text-brand-darkText">Endereço</h4>
                     <p className="text-gray-600">
-                      Av. Paulista, 1000<br />
-                      Bela Vista, São Paulo - SP<br />
-                      CEP: 01310-100
+                      Rua Pedro Francisco Teles, 53<br />
+                      São Roque, São Sebastião do Passé - BA<br />
+                      CEP: 43850-000
                     </p>
                   </div>
                 </div>
