@@ -14,7 +14,6 @@ import FacebookAds from './pages/FacebookAds'
 import InfluencerMarketing from './pages/InfluencerMarketing'
 import SEO from './pages/SEO'
 import DataAnalysis from './pages/DataAnalysis'
-import Dashboard from './pages/Dashboard'
 
 const queryClient = new QueryClient();
 
@@ -38,7 +37,6 @@ const App = () => (
           <Route path="/services/influencer-marketing" element={<InfluencerMarketing />} />
           <Route path="/services/seo" element={<SEO />} />
           <Route path="/services/data-analysis" element={<DataAnalysis />} />
-          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
