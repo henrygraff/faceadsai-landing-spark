@@ -42,8 +42,20 @@ const Navbar: React.FC = () => {
           <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-brand-blue font-medium transition-colors">Contato</button>
         </div>
 
-        <div className="hidden md:block">
-          <Button className="btn-primary">Fale Conosco</Button>
+        <div className="hidden md:flex items-center gap-4">
+          {!loading && (
+            <>
+              {user ? (
+                <div className="flex items-center gap-4">
+                  <span className="text-sm text-gray-700">Olá, {user.name}</span>
+                  <Button onClick={logout} variant="outline">Sair</Button>
+                </div>
+              ) : (
+                <Button onClick={login} className="btn-primary">Login</Button>
+              )}
+            </>
+          )}
+          <Button className="btn-primary" onClick={() => scrollToSection('contact')}>Fale Conosco</Button>
         </div>
 
         {/* Mobile menu button */}
