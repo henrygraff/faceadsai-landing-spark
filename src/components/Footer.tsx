@@ -54,11 +54,11 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-bold mb-4">Contato</h3>
             <ul className="space-y-2">
               <li className="text-gray-300">
-                Av. Paulista, 1000, Bela Vista
-                <br />São Paulo - SP, CEP: 01310-100
+                Rua Pedro Francisco Teles, 53, São Roque
+                <br />Bahia - BA, CEP: 43850-500
               </li>
-              <li className="text-gray-300">(11) 9999-9999</li>
-              <li className="text-gray-300">contato@faceadsai.wvmkdigital.com</li>
+              <li className="text-gray-300">(71) 99147-6462</li>
+              <li className="text-gray-300">contato@faceadsai.wvmkdigital.com.br</li>
             </ul>
           </div>
         </div>
